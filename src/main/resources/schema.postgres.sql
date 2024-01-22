@@ -1,0 +1,7 @@
+CREATE TABLE PRODUCT (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    price INTEGER NOT NULL
+);
+
+INSERT INTO PRODUCT (name, price) VALUES ('TV', 1000), ('Radio', 500), ('Phone', 200);
